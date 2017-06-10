@@ -1,0 +1,671 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="description" content="University of Washington Musician's Clinic"> -->
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/755919940356452352/4Ipf3EYH.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Musician's Clinic</title>
+
+    <!-- Page styles -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!--Roboto font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!--Google Material Design Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!--Google Material Design Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Google Material Design-->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!--WOW animations-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Google's Style Sheets-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Custom Style Sheets-->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="#top">Home</a>
+            <a class="mdl-navigation__link" href="#sesh">Events</a>
+            <a class="mdl-navigation__link" href="#sched">Schedule</a>
+            <a class="mdl-navigation__link" href="#faq">FAQ</a>
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+      </main>
+    </div>
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class=" mdl-typography--text-center" id="heading">
+          <img src="images/title.png" border="0" alt="Null" id="titleImage" class="h2-responsive wow fadeInLeft" data-wow-delay="0.5s">
+          <div class="logo-font android-slogan"></div>
+          <div class="logo-font android-sub-slogan"></div>
+          <div class="logo-font android-slogan"></div>
+          <div class="logo-font android-create-character">
+            <!--Card-->
+            <div class="card" id="mainCard">
+              <!--Card content-->
+              <div class="card-block">
+                  <!--Text-->
+                  <p class="card-text" id="cardText">
+                    The Musicians Clinic is a 2-day program to help high school students in the greater
+                    Seattle area refine their musicianship by working with the graduate
+                    students from the School of Music and any interested undergraduates
+                    who are interested in sharing their advanced skills in music. It is a great
+                    opportunity for high school students to gain a deeper appreciation of music and
+                    increase their breadth of musical knowledge.
+                  </p>
+                  <a href="https://goo.gl/forms/dRRZTN0BdYScNCQ62" target="_blank">
+                    <button type="button" class="btn btn-outline-default waves-effect" id="register_button">Register Now</button>
+                  </a>
+                </div>
+              <!--/.Card content-->
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="android-screen-section mdl-typography--text-center">
+          <a name="screens"></a>
+          <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
+          <div class="android-screens">
+            <div class="android-wear android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/wear-silver-on.png">
+                <img class="android-screen-image" src="images/wear-black-on.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+            </div>
+            <div class="android-phone android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/nexus6-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
+            </div>
+            <div class="android-tablet android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/nexus9-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
+            </div>
+            <div class="android-tv android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/tv-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
+            </div>
+            <div class="android-auto android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/auto-on.jpg">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
+            </div>
+          </div>
+        </div>
+      -->
+          <div class="android-wear-band">
+            <a name="sesh"></a>
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">Featured Sessions</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                Masterclasses taught by graduate students from the School of Music and advanced undergraduates who are interested in sharing their skills in music.
+              </p>
+              <p>
+                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="#events">
+                  Explore masterclasses&nbsp;<i class="material-icons">chevron_right</i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+        <!-- <div class="android-customized-section">
+          <div class="android-customized-section-text">
+            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
+            <p class="mdl-typography--font-light">
+              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+              <br>
+              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
+            </p>
+          </div>
+          <div class="android-customized-section-image"></div>
+        </div> -->
+
+        <div class="android-more-section">
+          <a name="schedule"></a>
+          <div class="android-section-title mdl-typography--display-1-color-contrast" id="events">Events</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/12294691_10156855105430454_1593863935995433709_n.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Masterclasses</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Learn from current UW students and faculty!</span>
+              </div>
+              <div class="mdl-card__actions">
+                <!--
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" data-toggle="modal" data-target="#masterclasses" href="">
+                   Learn More
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+                -->
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/uw-som-picture.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Lectures</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Learn about attending UW, music in college, and performance opportunites for both majors and non-majors.</span>
+              </div>
+              <div class="mdl-card__actions">
+                <!--
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" data-toggle="modal" data-target="#lectures" href="">
+                   Learn More
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+                -->
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/UW_DSC_3975.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Concerts</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Enjoy concerts performed by students to recap what they learned.</span>
+              </div>
+              <div class="mdl-card__actions">
+                <!--
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" data-toggle="modal" data-target="#more" href="">
+                  Learn More
+                  <i class="material-icons">chevron_right</i>
+                </a>
+                -->
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/182246_23c0_3.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Music Theory</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Enhance your understanding of music and your ability to analyze your songs through music theory lessons taught by our grad students.</span>
+              </div>
+              <div class="mdl-card__actions">
+                <!--
+                <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" data-toggle="modal" data-target="#more" href="">
+                  Learn More
+                  <i class="material-icons">chevron_right</i>
+                </a>
+                -->
+              </div>
+            </div>
+          </div>
+        </div> <!--Events-->
+
+        <div id="fourthPic">
+          <div class="container">
+            <a name="sched"></a>
+            <div class="mdl-typography--display-3" id="schedule">Schedule</div>
+            <br />
+
+            <!--Schedule Table-->
+            <table align ="center">
+              <thead>
+                <tr>
+                  <th><h2>Saturday</h2></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9:00AM - 10:30AM</td>
+                  <td>Masterclass I</td>
+                </tr>
+                <tr>
+                  <td>10:30AM - 10:40AM</td>
+                  <td>Break</td>
+                </tr>
+                <tr>
+                  <td>10:40AM - 11:50PM</td>
+                  <td>Masterclass II</td>
+                </tr>
+                <tr>
+                  <td>10:40AM - 11:10AM</td>
+                  <td>Class Period I</td>
+                </tr>
+                <tr>
+                  <td>11:10AM - 11:50AM</td>
+                  <td>Class Period II</td>
+                </tr>
+                <tr>
+                  <td>11:55AM - 12:30PM</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr>
+                  <td>12:30PM - 1:45PM</td>
+                  <td>Small Ensemble Time</td>
+                </tr>
+                <tr>
+                  <td>2:55PM</td>
+                  <td>Dismissal</td>
+                </tr>
+              </tbody>
+            </table>
+            <!--/.Schedule Table 1-->
+
+            <br /><br /><br />
+            <!--Schedule Table 2-->
+            <table align ="center">
+              <thead>
+                <tr>
+                  <th><h2>Sunday</h2></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>9:00AM - 10:30AM</td>
+                  <td>Large Ensemble Time (Concert Band)</td>
+                </tr>
+                <tr>
+                  <td>10:30AM - 10:40AM</td>
+                  <td>Break</td>
+                </tr>
+                <tr>
+                  <td>10:40AM - 11:55AM</td>
+                  <td>Large Ensemble Time (Jazz Band)</td>
+                </tr>
+                <tr>
+                  <td>10:40AM - 11:55AM</td>
+                  <td>Individual Practice Time (for non-Jazz Band)</td>
+                </tr>
+                <tr>
+                  <td>11:55AM - 12:30PM</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr>
+                  <td>12:30PM - 1:45PM</td>
+                  <td>Small Ensemble Time</td>
+                </tr>
+                <tr>
+                  <td>1:45PM - 2:15PM</td>
+                  <td>Warm-Up for Concert</td>
+                </tr>
+                <tr>
+                  <td>2:15PM - 2:55PM</td>
+                  <td>Concert for Parents</td>
+                </tr>
+                <tr>
+                  <td>2:55PM</td>
+                  <td>Dismissal</td>
+                </tr>
+              </tbody>
+            </table>
+            <!--/.Schedule Table 2-->
+            <br /><br /><br />
+          </div>
+        </div>
+        <!--/.Schedule Section-->
+
+        <div class="container" id="faq">
+        <p id="mainBody">
+
+          <a name="faq"></a>
+          <h1>FAQ</h1>
+          <div class="list-group">
+            <a role="button" data-toggle="collapse" href="#faq_1_collapse" class="list-group-item list-group-item-action">How many students are we expecting at this event?</a>
+              <div id="faq_1_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">This is the first time we are doing anything like this, so our estimate is anywhere from 50-80 students</p>
+              </div>
+            <a role="button" data-toggle="collapse" href="#faq_2_collapse" class="list-group-item list-group-item-action">What do you want from the graduate students?</a>
+              <div id="faq_2_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">Mainly lead master classes for each instrument. </p>
+              </div>
+            <a role="button" data-toggle="collapse" href="#faq_3_collapse" class="list-group-item list-group-item-action">If grad students participate in this, what are they committing to?</a>
+              <div id="faq_3_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">Approximately 6-9 hours over the course of 2 days. A great sense of reward from helping spread the knowledge of music. Gain experience in working with high school students. </p>
+              </div>
+            <a role="button" data-toggle="collapse" href="#faq_4_collapse" class="list-group-item list-group-item-action">Why would these high school students want to come all the way to campus for this program?</a>
+              <div id="faq_4_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">This is unlike any band/jazz/choral festival they have attended because it is much more intricate in that it helps students refine the skills on their instruments first before focusing on how to play together in an ensemble. They could begin establishing a network of music professionals before they even start college. Revamp their interest in music from a new setting.</p>
+              </div>
+            <a role="button" data-toggle="collapse" href="#faq_5_collapse" class="list-group-item list-group-item-action">Will this information be sent over email?</a>
+              <div id="faq_5_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">Yes. Si Si will email Professor Salzman and ask him to forward her email to members of the Wind Ensemble</p>
+              </div>
+            <a role="button" data-toggle="collapse" href="#faq_6_collapse" class="list-group-item list-group-item-action">Who should we contact if we have any questions?</a>
+              <div id="faq_6_collapse" class="panel-collapse collapse" role="tabpanel">
+                <p id="pCollapse">Si Si syc25@uw.edu or Brian bhuynh37@gmail.com</p>
+              </div>
+          </div> <!--End of List-->
+        </p>
+      </div>
+
+      <div class="container" id="contact">
+        <!--Form without header-->
+        <form class="form-horizontal" role="form" method="post" name="contactform" action="html_form_send.php" onsubmit="redirect()">
+          <div class="card form-group" id="form">
+              <div class="card-block">
+
+                <!--Header-->
+                <div class="text-center">
+                    <h3><i class="fa fa-envelope"></i> Contact us:</h3>
+                    <hr class="mt-2 mb-2">
+                </div>
+
+                  <!--Body-->
+                  <p>Please contact us if you need anything!</p>
+                  <br>
+
+                  <!--Body-->
+                  <div class="md-form form-group">
+                      <i class="fa fa-user prefix"></i>
+                      <label for="name">Name</label>
+                      <input type="text" name="name" id="name" class="form-control" />
+
+                  </div>
+
+                  <div class="md-form form-group">
+                      <i class="fa fa-envelope prefix"></i>
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" class="form-control" />
+                  </div>
+
+                  <div class="md-form">
+                      <i class="fa fa-pencil prefix"></i>
+                      <label for="message">Message</label>
+                      <textarea name="message" id="message" class="md-textarea"></textarea>
+                  </div>
+
+                  <div class="text-center">
+                      <button class="btn btn-default" name="submit" >Submit</button>
+                  </div>
+
+                  <!-- Modal -->
+                  <div id="formSuccess" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content" id="success">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Submitted</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Form successfully submitted.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!--/.End Modal-->
+
+                </div>
+            </div>
+          </form>
+          <!--/Form without header-->
+          <div class="col-md-6" id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.3792378427092!2d-122.30790208394423!3d47.65762867918798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490148dab6eb657%3A0x2047cc2af255256c!2sUniversity+of+Washington+School+of+Music!5e0!3m2!1sen!2sse!4v1486769122517" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer blue center-on-small-only" id="footer">
+
+            <!--Footer Links-->
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!--First column-->
+                    <div class="col-md-6">
+                        <h5 class="title">About Kappa Kappa Psi</h5>
+                        <p>
+                          Kappa Kappa Psi is a National Honorary Band Service Fraternity for college and university
+                          band members. It was founded in 1919 and primarily operates as a society providing service,
+                          leadership opportunities, and social bonds for band members.
+                        </p>
+                    </div>
+                    <!--/.First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-6" id="links">
+                        <h5 class="title" >Links</h5>
+                        <ul>
+                            <li><a href="http://students.washington.edu/kkpsi/">Gamma Chapter of Kappa Kappa Psi</a></li>
+                            <li><a href="https://www.kkpsi.org/">Kappa Kappa Psi</a></li>
+                            <li><a href="http://www.washington.edu/">University of Washington</a></li>
+                            <li><a href="https://music.washington.edu/">Washington School of Music</a></li>
+                        </ul>
+                    </div>
+                    <!--/.Second column-->
+                </div>
+            </div>
+            <!--/.Footer Links-->
+
+            <!--Copyright-->
+            <div class="footer-copyright">
+                <div class="container-fluid">
+                    © 2017 Copyright: <a href="https://material.io/guidelines/">Google Material Design</a>
+
+                </div>
+            </div>
+            <!--/.Copyright-->
+
+        </footer>
+        <!--/.Footer-->
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="masterclasses" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Masterclasses</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis, lorem at dictum ornare, lorem arcu faucibus metus,
+              vel fermentum mauris sapien at nulla. Donec ut tincidunt libero. In hac habitasse platea dictumst. Nulla quis est sed orci
+              feugiat porta. Sed sed erat odio. Proin pretium ligula id tempor interdum. Ut dictum urna massa, a porttitor velit tristique at.
+              Curabitur a erat quam. Quisque leo justo, feugiat eu lorem sit amet, hendrerit viverra risus. Etiam efficitur varius eros, non
+              vulputate justo semper sed. Suspendisse ullamcorper sem at libero vehicula cursus.
+            </p>
+            <p>
+              Nam vel consequat metus. Maecenas id ultricies eros. Curabitur et nisl ac libero cursus tincidunt a at eros. Pellentesque fermentum
+              orci quis volutpat ornare. Aenean commodo auctor ipsum, et consequat justo accumsan et. Vivamus scelerisque justo vitae enim auctor,
+              vel sagittis leo luctus. Aenean dictum, justo at porta vehicula, nibh erat elementum libero, vitae sollicitudin diam mi at tellus.
+              In ac mollis massa. Pellentesque iaculis consectetur nibh eget accumsan. Etiam vehicula, erat at ullamcorper imperdiet, massa enim
+              placerat elit, eu varius arcu magna eu risus. Vivamus pretium, dui vitae finibus porta, lacus velit auctor nibh, id vulputate lacus
+              est sed quam. Phasellus congue ipsum sit amet eros venenatis fermentum. Etiam blandit neque non tincidunt gravida. Curabitur fringilla
+              eleifend dui quis viverra. Fusce tortor lectus, feugiat accumsan lacus id, mollis gravida erat. Praesent at accumsan diam.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!--/.End Modal-->
+
+    <!-- Modal -->
+    <div id="lectures" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Lectures</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis, lorem at dictum ornare, lorem arcu faucibus metus,
+              vel fermentum mauris sapien at nulla. Donec ut tincidunt libero. In hac habitasse platea dictumst. Nulla quis est sed orci
+              feugiat porta. Sed sed erat odio. Proin pretium ligula id tempor interdum. Ut dictum urna massa, a porttitor velit tristique at.
+              Curabitur a erat quam. Quisque leo justo, feugiat eu lorem sit amet, hendrerit viverra risus. Etiam efficitur varius eros, non
+              vulputate justo semper sed. Suspendisse ullamcorper sem at libero vehicula cursus.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div><!--/.End Modal-->
+
+    <!-- Modal -->
+    <div id="more" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Music Theory</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div><!--/.End Modal-->
+
+    <!-- Modal -->
+    <div id="error" class="modal fade" role="dialog">
+      <a name="error"></a>
+
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Error</h4>
+          </div>
+          <div class="modal-body">
+            <p>There was an error with your form. Please go back and fix them.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div><!--/.End Modal-->
+
+    <!-- Modal -->
+    <div id="good" class="modal fade" role="dialog">
+      <a name="good"></a>
+
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Thanks for contacting us!</h4>
+          </div>
+          <div class="modal-body">
+            <p>Your question has been sent. We will get back to you as soon as possible.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div><!--/.End Modal-->
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- a helper script for vaidating the form-->
+    <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+
+    <script>
+    $(document).ready(function() {
+
+      if(window.location.href.indexOf('#good') != -1) {
+        $('#good').modal('show');
+      }
+
+      if(window.location.href.indexOf('#error') != -1) {
+        $('#error').modal('show');
+      }
+
+    });
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,121 @@
+#heading {
+  /*background: url('http://images.adsttc.com/media/images/5266/cc2a/e8e4/4e88/a000/02ad/large_jpg/wdch-auditorium-stage-view_hi.jpg?1382468635') center / cover;*/
+  background: url('images/quad.jpg') center / cover;
+  max-width: 100%;
+  height: 70%;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+ /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+ color: white;
+}
+
+.mdl-layout__header-row {
+ background: black; /* For browsers that do not support gradients */
+ background: -webkit-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)); /*Safari 5.1-6*/
+ background: -o-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)); /*Opera 11.1-12*/
+ background: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)); /*Fx 3.6-15*/
+ background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /*Standard*/
+}
+
+#fourthPic{
+  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: black;
+  background: url("images/seattleMaterial.png")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+}
+
+table{
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 1100px;
+  padding: 50px;
+}
+
+tr {
+  height: 30px;
+}
+
+thead {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(211, 211, 211, 0.6);
+}
+
+#schedule {
+  position: relative;
+}
+
+#mainBody{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#pCollapse {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo-font {
+  color: white;
+}
+
+#form{
+  z-index: 2;
+  width: 40%;
+  height: 500px;
+  float: left;
+  margin-top: 50px;
+}
+
+#map{
+  z-index: 2;
+  width: 30%;
+  height: 450px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+#footer{
+  margin-top: 700px;
+}
+
+#register_button {
+  width: 65%;
+  display: table-cell;
+  margin : 0 auto;
+  vertical-align: middle;
+}
+
+#titleImage {
+  float: left;
+  margin-left: 30px;
+  margin-top: 60px;
+  width: 40%;
+}
+
+#mainCard {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#cardText {
+  color: black;
+}
+
+/*Modals*/
+body .modal-admin {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */
+}

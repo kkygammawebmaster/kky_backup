@@ -1,0 +1,44 @@
+<style type="text/css">
+<!--
+body {
+background-color: #D8D5DF;
+background-attachment: scroll;
+background-repeat: repeat-y; }
+-->
+<!--
+
+A:link
+{color: #403658;  text-decoration:none;}
+A:visited
+{color: #403658;  text-decoration:none;}
+A:active
+{color: #403658;  text-decoration:none;}
+A:hover
+{color:#000000; font-weight:bold; text-decoration: underline;}
+
+body 
+{
+background-color: #E6E5E8;
+font-family: verdana; 
+color: #403658; 
+letter-spacing:0px; 
+font-weight:normal; 
+font-size: 11px;}
+
+
+.head{font-family: tahoma;font-size: 16px;color: #403658;text-align: right;background-repeat: no-repeat;background-color: none;font-weight: bold;text-transform: uppercase;align: right;height: 35px;background-repeat: no-repeat;padding-top: 9px;}
+
+.navhead{font-family: tahoma;font-size: 14px;color: #403658;text-align: left;background-repeat: no-repeat;background-color: none;font-weight: bold;text-transform: uppercase;height: 33px;background-repeat: no-repeat;padding-top: 7px;}
+
+.nav{font-family: verdana;font-size: 11px;color: #000000;padding: 3px;text-align: left;width: 175px;}
+
+
+td { 
+font-family: Tahoma; 
+color: #403658;
+letter-spacing: 0px;
+font-size: 12px;
+bgcolor: #FFFFFF;
+ }
+--> 
+</style>

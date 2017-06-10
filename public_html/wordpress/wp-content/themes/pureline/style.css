@@ -1,0 +1,76 @@
+/* 
+Theme Name: Pure Line
+Theme URI: http://theme4press.com/pure-line
+Version: 1.1.0
+Description: Professional, clean yet amazing WordPress theme for enthusiasts of simplicity and flexibility. Pure Line, with over 40 theme options, is the top WordPress theme for todays bloggers needs. You have full control over the layout, post excerpts with thumbnails, post boxes, up to 8 subscribe/social customizable buttons, custom logo uploading, 8 header and footer widgets, pre-installed font styles, custom CSS, built-in custom header and background. With customizable post rows, Pure Line is the best solution for any blog or magazine website. The theme also fully supports custom Menus. Translated in Spanish, German, Swedish, Dutch, French, Russian, Turkish, Norwegian, Slovenian, Italian, Brazilian Portuguese. The best, it's absolutely free! Designed by <a href="http://theme4press.com">http://theme4press.com</a> 
+Author: Theme4Press
+Author URI: http://theme4press.com
+Tags: two-columns, flexible-width, sticky-post, threaded-comments, microformats, custom-menu, gray, white, dark, right-sidebar, custom-header, custom-menu, theme-options, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+
+/*-------- Changelog --------
+
+Version:         1.1.0  -  PHP fixes
+Date:         25/5/12
+
+Version:         1.0.9  -  Modified readme.txt
+Date:         23/5/12
+
+Version:         1.0.8  -  PHP fixes
+Date:         17/5/12
+
+Version:         1.0.7  -  Improved theme control panel, php fixes
+Date:         14/5/12
+
+Version:         1.0.6  -  PHP fixes
+Date:         5/5/12
+
+Version:         1.0.5  -  CSS fixes
+Date:         4/5/12
+
+Version:         1.0.4  -  Functions and css fixes
+Date:         3/5/12
+
+Version:         1.0.3  -  Functions and css fixes
+Date:         23/4/12
+
+Version:         1.0.2  -  Functions and css fixes
+Date:         20/4/12
+
+Version:         1.0.1  -  Functions and scripts fixes
+Date:         8/4/12
+
+Version:         1.0.0  -  Initial release
+Date:         2/4/12
+
+*/
+
+/* Reset Browser Defaults */
+@import url( 'library/media/css/reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( 'library/media/css/base.css' );
+
+/**
+ * Basic 2 column (content)(aside) fixed layout
+ * 
+ * @package WPpureline
+ * @subpackage Layouts
+ * @beta
+ */
+
+.container { width: 960px; margin: 20px auto; }
+#wrapper {width:990px;}
+.hfeed { width: 620px; float: left; }
+.aside { width: 320px; float: right; }
+.footer { clear: both; }
+
+.alignleft { float: left; margin: 5px 20px 10px 0; }
+.alignright { float: right; margin: 5px 0 10px 20px; }
+.aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
+
+
+

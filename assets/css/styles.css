@@ -1,0 +1,46 @@
+#mainBackground {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#mainNav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  background-image: url("images/brad.jpg");
+  width: 84px;
+  height: auto;
+}
+
+#touchofclass {
+  display: block;
+  float: right;
+  width: 330px;
+}
+
+#highfive {
+  display: block;
+  float: left;
+  width: 60%;
+  height: auto;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+#testimonials {
+  display: block;
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}

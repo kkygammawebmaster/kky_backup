@@ -1,0 +1,178 @@
+/* YOUR CUSTOM STYLES */
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+/* Navigation*/
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2E2E2E;
+    }
+}
+
+
+/*Intro*/
+.view {
+    background: url("../images/segerstrom.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#secondPic{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    background: url("../images/musicTreble.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+#thirdPic{
+    margin-top: 020px;
+    margin-bottom: 420px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+
+#fourthPic{
+    margin-top: 550px;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: black;
+    background: url("../images/seattleMaterial.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+    #app-mockup {
+        max-height: 400px;
+    }
+}
+
+#mainBody{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footer{
+    margin-top: 700px;
+}
+
+/*Buttons*/
+
+/*Links*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Text*/
+#pCollapse {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*Cards*/
+#firstCard{
+  width: 30%;
+  height: 450px;
+  color: black;
+  float: left;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+#secondCard{
+  width: 30%;
+  height: 450px;
+  color: black;
+  float: left;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+#thirdCard{
+  width: 30%;
+  height: 450px;
+  color: black;
+  float: left;
+  margin-top: 30px;
+}
+
+#cardButton{
+  position: absolute;
+  top: 65%;
+}
+
+#form{
+  width: 40%;
+  height: 500px;
+  float: left;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+#map{
+  width: 30%;
+  height: 450px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+/*Table*/
+tr {
+  line-height: 10px;
+  font-size: 14px;
+}
+
+table{
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+/*Modals*/
+body .modal-admin {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */
+}

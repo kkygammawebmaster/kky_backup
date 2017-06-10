@@ -1,0 +1,75 @@
+@import "compass/css3";
+
+$experimental-support-for-svg: true !default;
+$inline-block-alignment: none !default;
+$legacy-support-for-ie7: true !default;
+$legacy-support-for-ie6: true !default;
+
+.rps-image-gallery-social {
+
+	.gallery-item {
+		position: relative;
+		
+		.gallery-icon {
+			position: relative;
+		
+			&:focus,
+			&:hover,
+			&:active {
+				
+				.gallery-item-sharing-buttons {
+					pointer-events: none;
+					
+					> ul {
+						display: block;
+						
+						> li {
+							opacity: 1;
+							-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+							filter: alpha(opacity=100);
+							pointer-events: auto;
+							-moz-opacity: 1;
+							-khtml-opacity: 1;
+						}
+						
+					}
+					
+				}
+				
+			}
+		
+			.gallery-item-sharing-buttons {
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block !important;
+				width: 100% !important;
+				height: 100% !important;
+				
+				> ul {
+					@include transform(translateX(-50%) translateY(-50%));
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					margin: 0 !important;
+					padding: 0 !important;
+					list-style: none !important;
+					
+					> li {
+						@include inline-block;
+						vertical-align: bottom;
+						@include transition(opacity 1s ease .5s);
+						pointer-events: none;
+						@include opacity(0);
+						margin: 2px;
+					}
+				
+				}
+				
+			}
+			
+		}
+	
+	}
+	
+}

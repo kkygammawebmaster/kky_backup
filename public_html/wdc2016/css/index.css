@@ -1,0 +1,71 @@
+#navbar {
+margin-top: 10px;
+}
+
+body {
+    padding-top: 30px;
+    background-image: url("http://students.washington.edu/kkpsi/wdc2016/resources/vector_background.png");
+}
+
+.content-panel {
+    background-color: rgba(30,30,30,0.7);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #0ce3ac;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #0ce3ac;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+h1.accent, h2.accent, h3.accent {
+    color: #0ce3ac;
+}
+
+#hot {
+    color: red;
+}
+
+#iced {
+    color: #aad4e5;
+}
+
+#main_header {
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.wideModal {
+    width: 90% !important;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+

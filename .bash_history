@@ -791,3 +791,71 @@ rm -r musiciansball/
 ls
 vim index.html 
 exit
+ls
+pwd
+cd public_html/
+ls
+pwd
+ls -a
+ls -l
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh kkpsi
+cd kkpsi/
+ls
+du -sh
+du -sh local_home/
+du -sh mysql-data
+du -sh public_html
+cd public_html/
+ls
+du -sh wordpress/
+ls
+cd ..
+ls
+du -sh *
+du -hc
+ls
+cd ..
+ls
+cd kkpsi/
+ls
+cd public_html/
+ls
+cd musiciansclinic/
+ls
+cd public_html/
+ls
+mkdir virtual5k
+ls
+cd public_html
+ls
+mkdir musiciansclinic
+ls
+pwd
+ls
+cd gamma5k-bc
+ls
+cd ..
+rm -rf gamma5k-bc
+ls
+cd public_html
+ls
+bye
+exit
+ls
+cd public_html/
+ls
+vi jrsrday/index.html
+exit
+ls
+cd public_html/
+ls
+cd files
+ls
+cd ..
+ls
+exit
