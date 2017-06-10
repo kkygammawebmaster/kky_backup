@@ -1,0 +1,583 @@
+090427 13:13:39  mysqld started
+090427 13:13:39  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+090427 13:13:40  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 43655.
+InnoDB: Doing recovery: scanned up to log sequence number 0 43655
+090427 13:13:40  InnoDB: Started; log sequence number 0 43655
+090427 13:13:40 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+lock: 0x91bef38:
+
+lock: 0x91bcbf0:
+
+lock: 0x91dc300:
+
+lock: 0x91d6fe8:
+
+lock: 0x91d2360:
+
+lock: 0x91ccd60:
+
+lock: 0x91c81a8:
+
+lock: 0x91c5668:
+
+lock: 0x91b76e0:
+
+lock: 0x91b4290:
+
+lock: 0x91ae5a8:
+
+lock: 0x91aaa80:
+
+lock: 0x91a5848:
+
+lock: 0x918c328:
+
+lock: 0x9186e78:
+
+lock: 0x9182570:
+
+lock: 0x9175210:
+
+lock: 0x91719c0:
+
+lock: 0x916cb30:
+
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:            21
+not flushed:             0
+w_requests:             12
+writes:                  8
+r_requests:            189
+reads:                  21
+
+
+handler status:
+read_key:           71
+read_next:         194
+read_rnd            96
+read_first:          9
+write:               1
+delete               1
+update:              1
+
+Table status:
+Opened tables:         24
+Open tables:           19
+Open files:            38
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 1
+Next alarm time: 0
+091118 13:44:28  mysqld started
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+091118 13:44:28  InnoDB: Retrying to lock the first data file
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ibdata1, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Unable to lock ./ib_logfile0, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Error in opening ./ib_logfile0
+091118 13:44:47 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+100726 12:01:13  mysqld started
+InnoDB: Unable to lock ./ib_logfile0, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Error in opening ./ib_logfile0
+100726 12:01:14 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+lock: 0xa769e10:
+
+lock: 0xa767ac8:
+
+lock: 0xa787508:
+
+lock: 0xa7821f0:
+
+lock: 0xa77d568:
+
+lock: 0xa777f68:
+
+lock: 0xa773100:
+
+lock: 0xa7705c0:
+
+lock: 0xa74d6f0:
+
+lock: 0xa75fa98:
+
+lock: 0xa7594e0:
+
+lock: 0xa7559b8:
+
+lock: 0xa750560:
+
+lock: 0xa737040:
+
+lock: 0xa731b90:
+
+lock: 0xa72d288:
+
+lock: 0xa7206f8:
+
+lock: 0xa71cea8:
+
+lock: 0xa718018:
+
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:            25
+not flushed:             0
+w_requests:             15
+writes:                  9
+r_requests:            400
+reads:                  25
+
+
+handler status:
+read_key:          165
+read_next:         383
+read_rnd           208
+read_first:         15
+write:               1
+delete               1
+update:              3
+
+Table status:
+Opened tables:         24
+Open tables:           19
+Open files:            38
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 1
+Next alarm time: 0
+110216 12:57:25  mysqld started
+InnoDB: Unable to lock ./ib_logfile0, error: 11
+InnoDB: Check that you do not already have another mysqld process
+InnoDB: using the same InnoDB data or log files.
+InnoDB: Error in opening ./ib_logfile0
+110216 12:57:25 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+lock: 0xa658e10:
+
+lock: 0xa656ac8:
+
+lock: 0xa676508:
+
+lock: 0xa6711f0:
+
+lock: 0xa66c568:
+
+lock: 0xa666f68:
+
+lock: 0xa662100:
+
+lock: 0xa65f5c0:
+
+lock: 0xa63c6f0:
+
+lock: 0xa64ea98:
+
+lock: 0xa6484e0:
+
+lock: 0xa6449b8:
+
+lock: 0xa63f560:
+
+lock: 0xa626040:
+
+lock: 0xa620b90:
+
+lock: 0xa61c288:
+
+lock: 0xa60f6f8:
+
+lock: 0xa60bea8:
+
+lock: 0xa607018:
+
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:            25
+not flushed:             0
+w_requests:             12
+writes:                  8
+r_requests:            202
+reads:                  25
+
+
+handler status:
+read_key:           84
+read_next:         192
+read_rnd           106
+read_first:          9
+write:               1
+delete               1
+update:              1
+
+Table status:
+Opened tables:         24
+Open tables:           19
+Open files:            38
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 1
+Next alarm time: 0
+111217 19:11:11  mysqld started
+111217 19:11:12  InnoDB: Started; log sequence number 0 43655
+111217 19:11:12 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+120413 16:27:24 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+120413 16:27:24  InnoDB: Starting shutdown...
+120413 16:27:26  InnoDB: Shutdown completed; log sequence number 0 43655
+120413 16:27:26 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+120416 16:05:16  mysqld started
+120416 16:05:17  InnoDB: Started; log sequence number 0 43655
+120416 16:05:17 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+120416 16:07:22 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: Normal shutdown
+
+120416 16:07:22  InnoDB: Starting shutdown...
+120416 16:07:25  InnoDB: Shutdown completed; log sequence number 0 43655
+120416 16:07:25 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: Shutdown complete
+
+120416 16:07:25  mysqld ended
+
+120416 16:07:35  mysqld started
+120416 16:07:35  InnoDB: Started; log sequence number 0 43655
+120416 16:07:35 [Note] /da00/d05/kkpsi/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+A mysqld process already exists at  Mon Apr 16 16:08:49 PDT 2012
+A mysqld process already exists at  Mon Apr 16 16:10:55 PDT 2012
+130428 21:07:41  mysqld started
+130428 21:07:42  InnoDB: Started; log sequence number 0 43655
+130428 21:07:42 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+lock: 0x9a68f78:
+
+lock: 0x9a96df0:
+
+lock: 0x9a91730:
+
+lock: 0x9a89560:
+
+lock: 0x9a88138:
+
+lock: 0x9a84368:
+
+lock: 0x9a73228:
+
+lock: 0x9a7b208:
+
+lock: 0x9a76190:
+
+lock: 0x9a63950:
+
+lock: 0x9a4b330:
+
+lock: 0x9a45e80:
+
+lock: 0x9a41570:
+
+lock: 0x9a34210:
+
+lock: 0x9a309c0:
+
+lock: 0x9a2bb30:
+
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:            62
+not flushed:             0
+w_requests:             12
+writes:                 12
+r_requests:            566
+reads:                  62
+
+
+handler status:
+read_key:          126
+read_next:         568
+read_rnd            50
+read_first:          4
+write:              15
+delete               3
+update:             15
+
+Table status:
+Opened tables:         21
+Open tables:           16
+Open files:            32
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 2
+Next alarm time: 0
+150115 20:08:58  mysqld started
+150115 20:08:58  InnoDB: Started; log sequence number 0 43655
+150115 20:08:59 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.0.45'  socket: '/da00/d05/kkpsi/mysql.sock'  port: 46468  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+lock: 0x9292848:
+
+lock: 0x92c4460:
+
+lock: 0x92c10e8:
+
+lock: 0x92b2128:
+
+lock: 0x92a9f78:
+
+lock: 0x92a7278:
+
+lock: 0x92a5418:
+
+lock: 0x9293ef8:
+
+lock: 0x929c408:
+
+lock: 0x9297390:
+
+lock: 0x9284950:
+
+lock: 0x926c330:
+
+lock: 0x9266e80:
+
+lock: 0x9262570:
+
+lock: 0x9255210:
+
+lock: 0x92519c0:
+
+lock: 0x924cb30:
+
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:           112
+not flushed:             0
+w_requests:            376
+writes:                370
+r_requests:          29476
+reads:                 112
+
+
+handler status:
+read_key:         7326
+read_next:       16977
+read_rnd         18692
+read_first:         86
+write:            1801
+delete              50
+update:            630
+
+Table status:
+Opened tables:         28
+Open tables:           23
+Open files:            40
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 3
+Next alarm time: 0
+
+Memory status:
+Non-mmapped space allocated from system: 3854336
+Number of free chunks:			 49
+Number of fastbin blocks:		 0
+Number of mmapped regions:		 13
+Space in mmapped regions:		 22872064
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 0
+Total allocated space:			 3604448
+Total free space:			 249888
+Top-most, releasable space:		 840
+Estimated memory (with thread stack):    26726400
+
+
+Status information:
+
+Current dir: /da00/d05/kkpsi/mysql/data/
+Running threads: 0  Stack size: 126976
+Current locks:
+
+Key caches:
+default
+Buffer_size:       8388600
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:           112
+not flushed:             0
+w_requests:            376
+writes:                370
+r_requests:          29476
+reads:                 112
+
+
+handler status:
+read_key:         7326
+read_next:       16977
+read_rnd         18692
+read_first:         88
+write:            1801
+delete              50
+update:            630
+
+Table status:
+Opened tables:         28
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 3
+Next alarm time: 0
+150323 15:47:45 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+150323 15:47:45  InnoDB: Starting shutdown...
+150323 15:47:50  InnoDB: Shutdown completed; log sequence number 0 43665
+150323 15:47:50 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+
+Memory status:
+Non-mmapped space allocated from system: 3661824
+Number of free chunks:			 21
+Number of fastbin blocks:		 0
+Number of mmapped regions:		 10
+Space in mmapped regions:		 22040576
+Maximum total allocated space:		 0
+Space available in freed fastbin blocks: 0
+Total allocated space:			 3096024
+Total free space:			 565800
+Top-most, releasable space:		 19320
+Estimated memory (with thread stack):    25702400
+
+150323 15:47:50  mysqld ended
+

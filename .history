@@ -1,0 +1,30 @@
+/usr 
+/usr/sbin 
+ls /usr/sbin 
+/usr/sbin/blat 
+/usr/sbin/blat.exe 
+ls 
+pico formmail.cgi 
+exit 
+ls 
+pico .forward 
+rm .forward 
+ls 
+pine 
+ls 
+cd public_html 
+ls 
+cd minutes 
+ls 
+cd  
+pwd 
+cd minutes 
+minutes 
+ls 
+cd minutes 
+ls 
+ls 
+rm 0000.html 0001.html 
+pine 
+logout 
+/guido03/da00/d05/kkpsi/public_html" 

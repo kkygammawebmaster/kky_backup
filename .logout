@@ -1,0 +1,2 @@
+#	source the standard .logout file
+source	/usr/local/lib/std.logout

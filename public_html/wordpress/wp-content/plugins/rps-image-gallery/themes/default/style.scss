@@ -1,0 +1,169 @@
+@import "compass/css3";
+
+$experimental-support-for-svg: true !default;
+$inline-block-alignment: none !default;
+$legacy-support-for-ie7: true !default;
+$legacy-support-for-ie6: true !default;
+
+.rps-image-gallery {
+	@include box-sizing(border-box);
+	margin: 0 !important;
+	
+	* {
+		@include box-sizing(border-box);
+	}
+	
+	> ul {
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style-type: none;
+		
+		> li {
+			margin: 0 !important;
+			padding: 0 !important;			
+		}
+		
+	}
+	
+	> figure, 
+	> ul,
+	> dl {
+		font-size: 0;
+	}
+	
+	> figure, 
+	> ul > li,
+	> dl {
+		@include inline-block;
+		vertical-align: top;
+	}
+	
+	> .background-thumbnails {
+		
+		> li {
+			
+			div:first-child {
+				
+				> div {
+					background-position: center center;
+					background-size: cover;
+					background-repeat: no-repeat;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	.gallery-item {
+		float: none;
+		margin: 0 !important;
+		padding: 0 !important;		
+	
+		.gallery-icon {
+			padding: 5% !important;
+			
+			a,
+			a:link,
+			a:visited {
+				@include box-shadow(none);
+				display: block;
+				border: none;
+				width: 100%;
+			}
+
+			.attachment-thumbnail {
+				margin: 0 !important;
+				width: 100% !important;
+				max-width: 100% !important;
+				height: auto !important;
+			}
+					
+		}
+		
+	}
+	
+	.wp-heading-text.gallery-heading,
+	.wp-caption-text.gallery-caption,
+	.gallery-meta {
+		display: block;
+		margin: 0 5% !important;
+		width: 90% !important;
+		line-height: normal;
+		padding: 0;
+		
+		&:last-child {
+			padding-bottom: 10px !important;
+		}
+		
+	}
+	
+	.wp-heading-text.gallery-heading {
+		font-size: medium;
+	}
+	
+	.wp-caption-text.gallery-caption {
+		margin-top: 10px;
+		font-size: small;
+				
+		a,
+		a:link,
+		a:visited {
+			display: inline;
+			overflow: auto;
+		}
+
+	}
+
+	.gallery-meta {
+		display: block;
+		list-style-type: none;
+		font-size: x-small;
+		margin: 10px 0 0 0;
+		padding: 0 !important;
+		
+		> li {
+			@include inline-block;
+			padding: 0 10px 0 0 !important;
+		}
+
+	}
+		
+	.navigation.pagination.builtin {
+		text-align: center;
+		
+		.meta-nav {
+			display: none;
+		}
+		
+		a,
+		a:link,
+		a:visited {
+			@include inline-block;
+			font-size: 15px;
+			font-weight: bold;
+			padding: 8px 10px;
+			background-color: rgb(220,220,220);
+			background-color: rgba(0,0,0,.1);
+			margin: 0 5px;
+			line-height: 1;
+			color: black;
+			
+			&:focus,
+			&:hover {
+				background-color: rgb(200,200,200);
+				background-color: rgba(0,0,0,.2);
+			}
+			
+			&.current {
+				background-color: rgb(50,50,50);
+				background-color: rgba(0,0,0,.8);
+				color: white;
+			}
+			
+		}
+				
+	}
+		
+}
