@@ -1,0 +1,265 @@
+@import "compass/css3";
+
+$experimental-support-for-svg: true !default;
+$inline-block-alignment: none !default;
+$legacy-support-for-ie7: true !default;
+$legacy-support-for-ie6: true !default;
+
+#fancybox-title,
+.fancybox-title {
+	pointer-events: none;
+	
+	a,
+	a:link,
+	a:visited {
+		color: inherit;
+		text-decoration: underline;
+	}
+	
+	.fancybox-title-heading {
+		font-weight: bold;
+	}
+	
+	div[class^="fancybox-title-"] {
+		display: inline;
+		
+		+ div:before {
+			content: ' – ';
+		}
+		
+	}
+	
+	p {
+		display: inline;
+	}
+	
+}
+
+#fancybox-title-over,
+#fancybox-title-inside,
+#fancybox-title-outside {
+	font-size: 1.1em;
+	line-height: 1.2;
+}
+
+#fancybox-overlay {
+	z-index: 9999 !important;
+}
+
+#fancybox-wrap,
+.fancybox-wrap,
+.fancybox-opened,
+#fancybox-loading,
+.fancybox-close,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-title,
+.fancybox-title-float-wrap {
+	z-index: 10000 !important;
+}
+
+#fancybox-wrap,
+#fancybox-wrap * {
+	@include box-sizing('content-box');
+}
+
+//fancyBox2 - forces the title overlay to go full width
+.fancybox-title {
+	
+	&.fancybox-title-over-wrap {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	
+}
+
+//fancyBox1 - formatting for the autoplay play/stop buttons
+//fancyBox2 - formatting for the download link
+#fancybox-play-icon,
+#fancybox-stop-icon,
+.rps-fancybox-download {
+	position: absolute;
+	cursor: pointer;
+	z-index: 8040;
+}
+
+//fancyBox2 only
+.rps-fancybox-download {
+	top: -18px;
+	left: -18px;
+	width: 36px;
+	height: 36px;
+	background-image: url('dependencies/rpsfancybox/fancybox2/fancybox_sprite.png');
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		   only screen and (min--moz-device-pixel-ratio: 1.5),
+		   only screen and (min-device-pixel-ratio: 1.5){
+			   background-image: url('dependencies/rpsfancybox/fancybox2/fancybox_sprite@2x.png');
+	}
+
+}
+
+//fancyBox1 only
+#fancybox-play-stop {
+	
+	#fancybox-play-icon,
+	#fancybox-stop-icon {
+		transform: translateX(-50%);
+		top: -15px;
+		left: 50%;
+		width: 30px;
+		height: 30px;
+		background-image: url('dependencies/rpsfancybox/fancybox/fancybox_sprite.png');
+	}
+	
+	#fancybox-play-icon {
+		background-position: left 30px;
+	}
+	
+	#fancybox-stop-icon {
+		background-position: left 0;
+	}
+	
+}
+
+//support default gallery style for legacy formats
+.rps-image-gallery-theme-none {
+	
+	&.rps-image-gallery-default-gallery-style {
+		
+		.gallery-item {
+			float: left;
+			margin-top: 10px;
+			text-align: center;
+		}
+		
+		img {
+			border: 2px solid #cfcfcf;
+		}
+		
+		.gallery-caption {
+			margin-left: 0;
+		}
+		
+	}
+	
+}
+
+//gallery item widths for themed and non-themed galleries with legacy format
+.rps-image-gallery,
+.rps-image-gallery-theme-none.rps-image-gallery-default-gallery-style {
+	
+	&.gallery-columns-1 {
+		
+		.gallery-item { 
+			width: 100%;
+		}
+		
+	}
+	
+	&.gallery-columns-2 {
+		
+		.gallery-item { 
+			width: 50%;
+		}
+
+	}
+	
+	&.gallery-columns-3 {
+		
+		.gallery-item { 
+			width: 33.3333%;
+		}
+
+	}
+	
+	&.gallery-columns-4 {
+		
+		.gallery-item { 
+			width: 25%;
+		}
+
+	}
+	
+	&.gallery-columns-5 {
+		
+		.gallery-item { 
+			width: 20%;
+		}
+
+	}
+	
+	&.gallery-columns-6 {
+		
+		.gallery-item { 
+			width: 16.666%;
+		}
+
+	}
+	
+	&.gallery-columns-7 {
+		
+		.gallery-item { 
+			width: 14.285%;
+		}
+
+	}
+	
+	&.gallery-columns-8 {
+		
+		.gallery-item { 
+			width: 12.5%;
+		}
+
+	}
+	
+	&.gallery-columns-9 {
+		
+		.gallery-item { 
+			width: 11.11%;
+		}
+
+	}
+
+}
+
+.rps-image-gallery {
+	
+	//most themes do not have specific spacing for headings in the gallery
+	h1.wp-heading-text.gallery-heading,
+	h2.wp-heading-text.gallery-heading,
+	h3.wp-heading-text.gallery-heading,
+	h4.wp-heading-text.gallery-heading,
+	h5.wp-heading-text.gallery-heading,
+	h6.wp-heading-text.gallery-heading {		
+		margin: .5em 0 0;
+		word-break: hyphenate;
+	}
+	
+	&.rps-image-gallery-no-heading .wp-heading-text.gallery-heading,
+	&.rps-image-gallery-no-caption .wp-caption-text.gallery-caption {
+		display: none !important;
+	}
+	
+	&.navigation.pagination {
+		
+		a,
+		a:link,
+		a:visited {
+			cursor: pointer;
+			text-decoration: none;
+			box-shadow: none;
+			border: none;
+			
+			&.disabled {
+				visibility: hidden;
+				pointer-events: none;
+			}
+			
+		}
+						
+	}
+		
+}

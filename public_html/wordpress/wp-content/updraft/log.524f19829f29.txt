@@ -1,0 +1,327 @@
+0000.014 (0) Opened log file at time: Mon, 18 Dec 2017 01:27:49 +0000 on http://students.washington.edu/kkpsi/wordpress
+0000.017 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8.4 PHP: 7.0.11 (cgi-fcgi, Linux students11.u.washington.edu 2.6.32-573.1.1.el6.x86_64 #1 SMP Tue Jul 14 02:46:51 EDT 2015 x86_64) MySQL: 5.5.18 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_ssl/2.2.32 OpenSSL/1.0.1e-fips mod_pubcookie/3.3.4a mod_uwa/3.2.1 Phusion_Passenger/3.0.11 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.2M | 22M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 343645 MB
+0000.087 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.088 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.153 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1512955566, seconds_ago=604903)
+0000.156 (0) Set semaphore last lock (fd) time to 2017-12-18 01:27:49
+0000.157 (0) Semaphore lock (fd) complete
+0000.173 (0) Backup run: resumption=0, nonce=524f19829f29, begun at=1513560469 (0s ago), job type=backup
+0000.175 (0) Scheduling a resumption (1) after 300 seconds (1513560769) in case this run gets aborted
+0000.205 (0) Checking if we have a zip executable available
+0000.214 (0) Testing: /usr/bin/zip
+0000.266 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.280 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.281 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.282 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.283 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.333 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.336 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.401 (0) Working binary zip found: /usr/bin/zip
+0000.403 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.404 (0) Creation of backups of directories: beginning
+0000.417 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.507 (0) Total entities for the zip file: 333 directories, 2030 files (0 skipped as non-modified), 37.6 MB
+0004.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.615 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: size is now: 0.10 MB
+0004.695 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 100 files added (on-disk size: 76.5 KB)
+0004.768 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 200 files added (on-disk size: 76.5 KB)
+0004.846 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 300 files added (on-disk size: 76.5 KB)
+0004.933 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 400 files added (on-disk size: 76.5 KB)
+0005.027 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 500 files added (on-disk size: 76.5 KB)
+0005.030 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 2030 files batched, 501 (502) added so far); re-opening (prior size: 76.5 KB)
+0012.884 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: size is now: 5.40 MB
+0012.998 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 600 files added (on-disk size: 5573.1 KB)
+0013.086 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 700 files added (on-disk size: 5573.1 KB)
+0013.173 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 800 files added (on-disk size: 5573.1 KB)
+0013.254 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 900 files added (on-disk size: 5573.1 KB)
+0013.341 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1000 files added (on-disk size: 5573.1 KB)
+0013.345 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.1 MB, 2030 files batched, 501 (1003) added so far); re-opening (prior size: 5573.1 KB)
+0022.584 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: size is now: 10.00 MB
+0022.736 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1100 files added (on-disk size: 10290 KB)
+0022.945 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1200 files added (on-disk size: 10290 KB)
+0023.169 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1300 files added (on-disk size: 10290 KB)
+0023.333 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1400 files added (on-disk size: 10290 KB)
+0023.526 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1500 files added (on-disk size: 10290 KB)
+0023.532 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 2030 files batched, 501 (1504) added so far); re-opening (prior size: 10290 KB)
+0032.599 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1600 files added (on-disk size: 11017 KB)
+0032.709 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1700 files added (on-disk size: 11017 KB)
+0032.813 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1800 files added (on-disk size: 11017 KB)
+0032.942 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 1900 files added (on-disk size: 11017 KB)
+0033.068 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: 2000 files added (on-disk size: 11017 KB)
+0033.077 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 2030 files batched, 501 (2005) added so far); re-opening (prior size: 11017 KB)
+0041.032 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip.tmp: size is now: 15.20 MB
+0041.712 (0) Created plugins zip (0) - 15648.6 KB in 41.3 s (379.1 KB/s) (sha1: 1de6a25f1901efb7bb51804196d6b25974f3d02f, sha256: 7bcfb14975042579b84659bdefc403bc255f14027efd885bc01137a78d2048a7)
+0041.790 (0) Beginning creation of dump of themes (split every: 400 MB)
+0044.306 (0) Total entities for the zip file: 210 directories, 1295 files (0 skipped as non-modified), 23.7 MB
+0044.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0044.390 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: size is now: 0.00 MB
+0044.440 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 100 files added (on-disk size: 40.8 KB)
+0044.482 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 200 files added (on-disk size: 40.8 KB)
+0044.565 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 300 files added (on-disk size: 40.8 KB)
+0044.613 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 400 files added (on-disk size: 40.8 KB)
+0044.661 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 500 files added (on-disk size: 40.8 KB)
+0044.663 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 1295 files batched, 501 (502) added so far); re-opening (prior size: 40.8 KB)
+0051.909 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: size is now: 7.40 MB
+0052.032 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 600 files added (on-disk size: 7607.5 KB)
+0052.152 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 700 files added (on-disk size: 7607.5 KB)
+0052.312 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 800 files added (on-disk size: 7607.5 KB)
+0052.456 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 900 files added (on-disk size: 7607.5 KB)
+0052.588 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 1000 files added (on-disk size: 7607.5 KB)
+0052.593 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 1295 files batched, 501 (1003) added so far); re-opening (prior size: 7607.5 KB)
+0061.153 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: size is now: 13.80 MB
+0061.326 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 1100 files added (on-disk size: 14109.3 KB)
+0061.498 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip.tmp: 1200 files added (on-disk size: 14109.3 KB)
+0066.549 (0) Created themes zip (0) - 16885.6 KB in 24.7 s (683.4 KB/s) (sha1: 7e9f20a02720919f395cbe2faa03e6b665addc93, sha256: 49f7cf0a5351bfbde13f44cbb0a050b0978d2790bd52ff95845935ca4beeeb53)
+0066.557 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0066.558 (0) Looking for candidates to back up in: /nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content/uploads
+0066.570 (0) finding files: nelioefi-placeholder-636x310.png: adding to list (1)
+0066.571 (0) finding files: 2014: adding to list (2)
+0066.571 (0) finding files: nelioefi-placeholder-150x150.png: adding to list (3)
+0066.572 (0) finding files: 2015: adding to list (4)
+0066.573 (0) finding files: 2016: adding to list (5)
+0066.574 (0) finding files: 2017: adding to list (6)
+0066.575 (0) finding files: nelioefi-placeholder-300x225.png: adding to list (7)
+0066.576 (0) finding files: 2012: adding to list (8)
+0066.577 (0) finding files: nelioefi-placeholder.png: adding to list (9)
+0066.578 (0) finding files: 2013: adding to list (10)
+0066.578 (0) finding files: nelioefi-placeholder-1024x768.png: adding to list (11)
+0066.579 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0067.364 (0) Total entities for the zip file: 71 directories, 427 files (0 skipped as non-modified), 37.2 MB
+0067.421 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0067.474 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0067.524 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0067.528 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 427 files batched, 306 (306) added so far); re-opening (prior size: 0 KB)
+0073.867 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: size is now: 25.50 MB
+0073.877 (0) A useful amount of data was added after this amount of zip processing: 7.9 s (normalised: 7.7 s, rate: 3317.2 KB/s)
+0073.963 (0) Zip: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: 400 files added (on-disk size: 26076.6 KB)
+0077.030 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip.tmp: size is now: 37.20 MB
+0077.868 (0) Created uploads zip (0) - 38082.2 KB in 11.3 s (3376.6 KB/s) (sha1: 16ec6736635204af09b21515e7184295c438c9b6, sha256: 9c397977d4bbebb9cb2322c337a12a9f05edf988ccd76cac4f29869f0f370feb)
+0077.876 (0) Beginning backup of other directories found in the content directory (index: 0)
+0077.877 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0077.878 (0) Looking for candidates to back up in: /nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content
+0077.879 (0) finding files: index.php: adding to list (1)
+0077.880 (0) finding files: plugins: skipping: this is the plugins directory
+0077.881 (0) finding files: themes: skipping: this is the themes directory
+0077.882 (0) finding files: uploads: skipping: this is the uploads directory
+0077.883 (0) finding files: upgrade: skipping: excluded by options
+0077.883 (0) finding files: tablepress-custom.css: adding to list (2)
+0077.884 (0) finding files: tablepress-custom.min.css: adding to list (3)
+0077.885 (0) finding files: tablepress-combined.min.css: adding to list (4)
+0077.886 (0) finding files: updraft: skipping: this is the updraft directory
+0077.887 (0) finding files: plugins-old: adding to list (5)
+0077.888 (0) finding files: themes-old: adding to list (6)
+0077.888 (0) finding files: uploads-old: adding to list (7)
+0077.889 (0) finding files: tablepress-custom.css-old: adding to list (8)
+0077.890 (0) finding files: index.php-old: adding to list (9)
+0077.891 (0) finding files: tablepress-combined.min.css-old: adding to list (10)
+0077.892 (0) finding files: tablepress-custom.min.css-old: adding to list (11)
+0077.957 (0) Total entities for the zip file: 3 directories, 8 files (0 skipped as non-modified), 0 MB
+0078.043 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip.tmp: size is now: 0.00 MB
+0078.063 (0) Created others zip (0) - 7.9 KB in 0.2 s (50.1 KB/s) (sha1: 2ba6d51d8119cbeacb20388e54e9d696106a491c, sha256: 75bab7b8e69b93f7c82648e714917c7da64b55d8e211ce4caeda640aa5d5daa7)
+0078.078 (0) Saving backup status to database (elements: 8)
+0078.082 (0) Beginning creation of database dump (WordPress DB)
+0078.324 (0) Table wp_options: Total expected rows (approximate): 380
+0078.409 (0) Table wp_options: Total rows added: 376 in 0.08 seconds
+0078.424 (0) Table wp_options: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_options.table.gz - 239.3 KB)
+0078.436 (0) Table wp_users: Total expected rows (approximate): 2
+0078.441 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0078.445 (0) Table wp_users: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_users.table.gz - 0.6 KB)
+0078.458 (0) Table wp_usermeta: Total expected rows (approximate): 54
+0078.463 (0) Table wp_usermeta: Total rows added: 54 in 0.00 seconds
+0078.468 (0) Table wp_usermeta: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_usermeta.table.gz - 2 KB)
+0078.481 (0) Table wp_commentmeta: Total expected rows (approximate): 3
+0078.485 (0) Table wp_commentmeta: Total rows added: 3 in 0.00 seconds
+0078.489 (0) Table wp_commentmeta: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_commentmeta.table.gz - 0.5 KB)
+0078.501 (0) Table wp_comments: Total expected rows (approximate): 1
+0078.506 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0078.511 (0) Table wp_comments: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_comments.table.gz - 0.8 KB)
+0078.523 (0) Table wp_links: Total expected rows (approximate): 12
+0078.542 (0) Table wp_links: Total rows added: 12 in 0.02 seconds
+0078.547 (0) Table wp_links: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_links.table.gz - 0.8 KB)
+0078.560 (0) Table wp_postmeta: Total expected rows (approximate): 1740
+0078.584 (0) Table wp_postmeta: Total rows added: 1740 in 0.02 seconds
+0078.589 (0) Table wp_postmeta: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_postmeta.table.gz - 26.9 KB)
+0078.600 (0) Table wp_posts: Total expected rows (approximate): 1952
+0079.007 (0) Table wp_posts: Total rows added: 1952 in 0.41 seconds
+0079.024 (0) Table wp_posts: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_posts.table.gz - 750.1 KB)
+0079.037 (0) Table wp_term_relationships: Total expected rows (approximate): 88
+0079.042 (0) Table wp_term_relationships: Total rows added: 88 in 0.00 seconds
+0079.046 (0) Table wp_term_relationships: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_term_relationships.table.gz - 0.6 KB)
+0079.061 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0079.065 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0079.074 (0) Table wp_term_taxonomy: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0079.086 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0079.090 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0079.093 (0) Table wp_termmeta: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_termmeta.table.gz - 0.4 KB)
+0079.108 (0) Table wp_terms: Total expected rows (approximate): 8
+0079.112 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0079.117 (0) Table wp_terms: finishing file (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_terms.table.gz - 0.5 KB)
+0079.131 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_options.table.gz (1/12): adding to final database dump
+0079.197 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_users.table.gz (2/12): adding to final database dump
+0079.200 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0079.204 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0079.206 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0079.208 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_links.table.gz (6/12): adding to final database dump
+0079.211 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0079.224 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0079.500 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0079.504 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0079.506 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0079.508 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0079.516 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz: finished writing out complete database file (768 KB)
+0079.576 (0) Total database tables backed up: 12 (backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz, size: 1045792, sha256)
+0079.585 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0079.586 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0079.587 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0079.588 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip: others: This file has not yet been successfully uploaded: will queue
+0079.589 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz: db: This file has not yet been successfully uploaded: will queue
+0079.590 (0) Saving backup history. Total backup size: 70 MB
+0079.593 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0079.597 (0) Cloud backup selection (1/1): googledrive (last)
+0079.603 (0) Beginning dispatch of backup to remote (googledrive)
+0079.622 (0) Google Drive: requesting access token: client_id=674804707595-0lk94slgmm4r8ckkqs984jjom4ede6fe.apps.googleusercontent.com
+0079.989 (0) Google Drive: successfully obtained access token
+0081.350 (0) Google Drive quota usage: used=8680.7 MB, total=15360 MB, available=6679.3 MB
+0081.353 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B9nWI5iX-27DYmU1bmxCNV9ZUXc)
+0081.806 (0) Googledrive chunked upload: 6.5 % uploaded (1048576)
+0081.957 (0) Googledrive chunked upload: 13.1 % uploaded (2097152)
+0082.114 (0) Googledrive chunked upload: 19.6 % uploaded (3145728)
+0082.307 (0) Googledrive chunked upload: 26.2 % uploaded (4194304)
+0082.450 (0) Googledrive chunked upload: 32.7 % uploaded (5242880)
+0082.622 (0) Googledrive chunked upload: 39.3 % uploaded (6291456)
+0082.827 (0) Googledrive chunked upload: 45.8 % uploaded (7340032)
+0082.991 (0) Googledrive chunked upload: 52.3 % uploaded (8388608)
+0083.156 (0) Googledrive chunked upload: 58.9 % uploaded (9437184)
+0083.303 (0) Googledrive chunked upload: 65.4 % uploaded (10485760)
+0083.446 (0) Googledrive chunked upload: 72 % uploaded (11534336)
+0083.661 (0) Googledrive chunked upload: 78.5 % uploaded (12582912)
+0083.827 (0) Googledrive chunked upload: 85.1 % uploaded (13631488)
+0084.012 (0) Googledrive chunked upload: 91.6 % uploaded (14680064)
+0084.201 (0) Googledrive chunked upload: 98.2 % uploaded (15728640)
+0085.859 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0085.863 (0) OK: Archive backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip uploaded to Google Drive in 4.51 seconds
+0085.866 (0) Recording as successfully uploaded: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip (41dfc93926dbc245374d41d6fccc735e)
+0085.876 (0) Deleting local file: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-plugins.zip: OK
+0086.059 (0) Google Drive quota usage: used=8696 MB, total=15360 MB, available=6664 MB
+0086.060 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip: Attempting to upload to Google Drive (into folder id: 0B9nWI5iX-27DYmU1bmxCNV9ZUXc)
+0086.488 (0) Googledrive chunked upload: 6.1 % uploaded (1048576)
+0086.634 (0) Googledrive chunked upload: 12.1 % uploaded (2097152)
+0086.848 (0) Googledrive chunked upload: 18.2 % uploaded (3145728)
+0087.016 (0) Googledrive chunked upload: 24.3 % uploaded (4194304)
+0087.163 (0) Googledrive chunked upload: 30.3 % uploaded (5242880)
+0087.315 (0) Googledrive chunked upload: 36.4 % uploaded (6291456)
+0087.463 (0) Googledrive chunked upload: 42.5 % uploaded (7340032)
+0087.621 (0) Googledrive chunked upload: 48.5 % uploaded (8388608)
+0087.777 (0) Googledrive chunked upload: 54.6 % uploaded (9437184)
+0087.926 (0) Googledrive chunked upload: 60.6 % uploaded (10485760)
+0088.099 (0) Googledrive chunked upload: 66.7 % uploaded (11534336)
+0088.262 (0) Googledrive chunked upload: 72.8 % uploaded (12582912)
+0088.410 (0) Googledrive chunked upload: 78.8 % uploaded (13631488)
+0088.570 (0) Googledrive chunked upload: 84.9 % uploaded (14680064)
+0088.730 (0) Googledrive chunked upload: 91 % uploaded (15728640)
+0088.904 (0) Googledrive chunked upload: 97 % uploaded (16777216)
+0089.927 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0089.931 (0) OK: Archive backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip uploaded to Google Drive in 3.87 seconds
+0089.934 (0) Recording as successfully uploaded: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip (7a1b2a994e8c4e3f1049a0d1e94b5f4d)
+0089.943 (0) Deleting local file: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-themes.zip: OK
+0090.160 (0) Google Drive quota usage: used=8712.5 MB, total=15360 MB, available=6647.5 MB
+0090.162 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B9nWI5iX-27DYmU1bmxCNV9ZUXc)
+0090.538 (0) Googledrive chunked upload: 2.7 % uploaded (1048576)
+0090.687 (0) Googledrive chunked upload: 5.4 % uploaded (2097152)
+0090.842 (0) Googledrive chunked upload: 8.1 % uploaded (3145728)
+0090.993 (0) Googledrive chunked upload: 10.8 % uploaded (4194304)
+0091.185 (0) Googledrive chunked upload: 13.4 % uploaded (5242880)
+0091.324 (0) Googledrive chunked upload: 16.1 % uploaded (6291456)
+0091.470 (0) Googledrive chunked upload: 18.8 % uploaded (7340032)
+0091.619 (0) Googledrive chunked upload: 21.5 % uploaded (8388608)
+0091.768 (0) Googledrive chunked upload: 24.2 % uploaded (9437184)
+0091.934 (0) Googledrive chunked upload: 26.9 % uploaded (10485760)
+0092.097 (0) Googledrive chunked upload: 29.6 % uploaded (11534336)
+0092.239 (0) Googledrive chunked upload: 32.3 % uploaded (12582912)
+0092.444 (0) Googledrive chunked upload: 35 % uploaded (13631488)
+0092.598 (0) Googledrive chunked upload: 37.6 % uploaded (14680064)
+0092.746 (0) Googledrive chunked upload: 40.3 % uploaded (15728640)
+0092.908 (0) Googledrive chunked upload: 43 % uploaded (16777216)
+0093.070 (0) Googledrive chunked upload: 45.7 % uploaded (17825792)
+0093.236 (0) Googledrive chunked upload: 48.4 % uploaded (18874368)
+0093.384 (0) Googledrive chunked upload: 51.1 % uploaded (19922944)
+0093.533 (0) Googledrive chunked upload: 53.8 % uploaded (20971520)
+0093.689 (0) Googledrive chunked upload: 56.5 % uploaded (22020096)
+0093.866 (0) Googledrive chunked upload: 59.2 % uploaded (23068672)
+0094.041 (0) Googledrive chunked upload: 61.8 % uploaded (24117248)
+0094.228 (0) Googledrive chunked upload: 64.5 % uploaded (25165824)
+0094.421 (0) Googledrive chunked upload: 67.2 % uploaded (26214400)
+0094.586 (0) Googledrive chunked upload: 69.9 % uploaded (27262976)
+0094.826 (0) Googledrive chunked upload: 72.6 % uploaded (28311552)
+0094.983 (0) Googledrive chunked upload: 75.3 % uploaded (29360128)
+0095.135 (0) Googledrive chunked upload: 78 % uploaded (30408704)
+0095.298 (0) Googledrive chunked upload: 80.7 % uploaded (31457280)
+0095.477 (0) Googledrive chunked upload: 83.4 % uploaded (32505856)
+0095.653 (0) Googledrive chunked upload: 86 % uploaded (33554432)
+0095.805 (0) Googledrive chunked upload: 88.7 % uploaded (34603008)
+0095.968 (0) Googledrive chunked upload: 91.4 % uploaded (35651584)
+0096.158 (0) Googledrive chunked upload: 94.1 % uploaded (36700160)
+0096.340 (0) Googledrive chunked upload: 96.8 % uploaded (37748736)
+0096.532 (0) Googledrive chunked upload: 99.5 % uploaded (38797312)
+0097.600 (0) Googledrive chunked upload: 100 % uploaded (38797312)
+0097.604 (0) OK: Archive backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip uploaded to Google Drive in 7.44 seconds
+0097.607 (0) Recording as successfully uploaded: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip (ac627138176f986fd4bfd4c9ca84c02d)
+0097.618 (0) Deleting local file: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-uploads.zip: OK
+0097.810 (0) Google Drive quota usage: used=8749.7 MB, total=15360 MB, available=6610.3 MB
+0097.811 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip: Attempting to upload to Google Drive (into folder id: 0B9nWI5iX-27DYmU1bmxCNV9ZUXc)
+0099.016 (0) Googledrive chunked upload: 100 % uploaded
+0099.021 (0) OK: Archive backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip uploaded to Google Drive in 1.21 seconds
+0099.024 (0) Recording as successfully uploaded: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip (e4e19ba7f59167b14c18b87ee7d20501)
+0099.031 (0) Deleting local file: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-others.zip: OK
+0099.240 (0) Google Drive quota usage: used=8749.7 MB, total=15360 MB, available=6610.3 MB
+0099.241 (0) backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz: Attempting to upload to Google Drive (into folder id: 0B9nWI5iX-27DYmU1bmxCNV9ZUXc)
+0100.261 (0) Googledrive chunked upload: 100 % uploaded
+0100.267 (0) OK: Archive backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz uploaded to Google Drive in 1.02 seconds
+0100.269 (0) Recording as successfully uploaded: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz (f35340ca3206a680f512e025051f1378)
+0100.278 (0) Deleting local file: backup_2017-12-18-0127_Kappa_Kappa_Psi_Gamma_524f19829f29-db.gz: OK
+0100.281 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0100.283 (0) Number of backup sets in history: 3; groups (db): 1
+0100.284 (0) Examining (for databases) backup set with group_id=0, nonce=524f19829f29, datestamp=1513560469 (Dec 18 2017 01:27:49)
+0100.285 (0) This backup set is the backup set just made, so will not be deleted.
+0100.286 (0) Examining (for databases) backup set with group_id=0, nonce=72e1000eed0c, datestamp=1512955566 (Dec 11 2017 01:26:06)
+0100.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0100.287 (0) Examining (for databases) backup set with group_id=0, nonce=d3571bd8a594, datestamp=1512351096 (Dec 04 2017 01:31:36)
+0100.288 (0) 1512351096: db: this set includes a database (backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-db.gz); db count is now 2
+0100.289 (0) 1512351096: db: over retain limit (2); will delete this database
+0100.290 (0) Delete file: backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-db.gz, service=googledrive
+0101.564 (0) backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-db.gz: Deletion successful
+0101.567 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0101.568 (0) Number of backup sets in history: 3; groups (files): 1
+0101.569 (0) Examining (for files) backup set with nonce=524f19829f29, datestamp=1513560469 (Dec 18 2017 01:27:49)
+0101.570 (0) This backup set is the backup set just made, so will not be deleted.
+0101.571 (0) This backup set is the backup set just made, so will not be deleted.
+0101.571 (0) This backup set is the backup set just made, so will not be deleted.
+0101.571 (0) This backup set is the backup set just made, so will not be deleted.
+0101.571 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0101.572 (0) Examining (for files) backup set with nonce=72e1000eed0c, datestamp=1512955566 (Dec 11 2017 01:26:06)
+0101.573 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0101.574 (0) Examining (for files) backup set with nonce=d3571bd8a594, datestamp=1512351096 (Dec 04 2017 01:31:36)
+0101.574 (0) plugins: over retain limit (2); will delete this file entity
+0101.575 (0) themes: over retain limit (2); will delete this file entity
+0101.576 (0) uploads: over retain limit (2); will delete this file entity
+0101.577 (0) others: over retain limit (2); will delete this file entity
+0101.578 (0) Delete file: backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-plugins.zip, service=googledrive
+0101.580 (0) Delete file: backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-themes.zip, service=googledrive
+0101.581 (0) Delete file: backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-uploads.zip, service=googledrive
+0101.582 (0) Delete file: backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-others.zip, service=googledrive
+0102.418 (0) backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-others.zip: Deletion successful
+0102.943 (0) backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-uploads.zip: Deletion successful
+0103.464 (0) backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-themes.zip: Deletion successful
+0103.939 (0) backup_2017-12-04-0131_Kappa_Kappa_Psi_Gamma_d3571bd8a594-plugins.zip: Deletion successful
+0103.942 (0) This backup set is now empty; will remove from history
+0103.944 (0) Deleting log file (log.d3571bd8a594.txt)
+0103.949 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0103.954 (0) Resume backup (524f19829f29, 0): finish run
+0103.956 (0) Decremented the semaphore (fd) by 1
+0103.958 (0) Semaphore (fd) unlocked
+0103.959 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0103.962 (0) Fetching RSS news feed
+0104.278 (0) Fetched RSS news feed; result is a: SimplePie
+0104.427 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: kkpsi...
+0105.229 (0) The backup apparently succeeded and is now complete

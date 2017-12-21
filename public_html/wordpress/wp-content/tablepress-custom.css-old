@@ -1,0 +1,16 @@
+.tablepress thead th,
+.tablepress tfoot th {
+	background-color: #6666ff;
+}
+
+.tablepress thead .sorting_asc,
+.tablepress thead .sorting_desc,
+.tablepress thead .sorting:hover {
+	background-color: #6600ff;
+}
+
+.tablepress-id-N tbody td {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #ffffff;
+}

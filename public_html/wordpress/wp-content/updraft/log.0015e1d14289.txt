@@ -1,0 +1,72 @@
+0000.007 () Opened log file at time: Mon, 24 Jul 2017 20:01:56 +0000 on http://students.washington.edu/kkpsi/wordpress
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 7.0.11 (cgi-fcgi, Linux students11.u.washington.edu 2.6.32-573.1.1.el6.x86_64 #1 SMP Tue Jul 14 02:46:51 EDT 2015 x86_64) MySQL: 5.5.18 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_ssl/2.2.31 OpenSSL/1.0.1e-fips mod_pubcookie/3.3.4a mod_uwa/3.2.1 Phusion_Passenger/3.0.11 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.7M | 26M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 297643.5 MB
+0000.009 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.129 () Entity: db
+0000.129 () restore_backup(backup_file=backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-db.gz, type=db, info=a:0:{}, last_one=)
+0000.130 () Unpacking backup... (backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-db.gz, 0.9 Mb)
+0000.156 () Database successfully unpacked
+0000.157 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.158 () Using direct MySQL access; value of use_mysqli is: 1
+0000.363 () Max packet size: 32 MB
+0000.363 () Entering maintenance mode
+0000.363 () Enabling Maintenance mode&#8230;
+0000.369 () Backup of: http://students.washington.edu/kkpsi/wordpress
+0000.371 () Site home: http://students.washington.edu/kkpsi
+0000.371 () Content URL: http://students.washington.edu/kkpsi/wordpress/wp-content
+0000.371 () Uploads URL: http://students.washington.edu/kkpsi/wordpress/wp-content/uploads
+0000.371 () Old table prefix: wp_
+0000.372 () Site information: multisite=0
+0000.379 () New table prefix: wp_
+0000.486 () Processing table (MyISAM): wp_options
+0001.034 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0001.065 () Processing table (MyISAM): wp_users
+0001.117 () Processing table (MyISAM): wp_usermeta
+0001.185 () Processing table (MyISAM): wp_commentmeta
+0001.260 () Processing table (MyISAM): wp_comments
+0001.358 () Processing table (MyISAM): wp_links
+0001.417 () Processing table (MyISAM): wp_postmeta
+0001.969 () Processing table (MyISAM): wp_posts
+0003.183 () Processing table (MyISAM): wp_term_relationships
+0003.236 () Processing table (MyISAM): wp_term_taxonomy
+0003.277 () Processing table (InnoDB): wp_termmeta
+0003.315 () Database queries processed: 50 in 3.15 seconds
+0003.383 () Processing table (MyISAM): wp_terms
+0003.416 () Unlocking database and leaving maintenance mode
+0003.416 () Disabling Maintenance mode&#8230;
+0003.418 () Finished: lines processed: 56 in 3.25 seconds
+0003.421 () Cleaning up rubbish...
+0003.433 () Entity: plugins
+0003.433 () restore_backup(backup_file=backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:60:"/nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0003.433 () Unpacking backup... (backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-plugins.zip, 12.1 Mb)
+0019.054 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.058 () Moving old data: can potentially use wp_filesystem method / -old
+0019.058 () Moving old data out of the way...
+0024.026 () Top-level entities being moved: akismet, index.php, customize-meta-widget, google-calendar-widget, smart-slideshow-widget, tablepress, hello.php, rps-image-gallery, facebook-conversion-pixel, simple-facebook-pixel, custom-facebook-feed, featured-image-via-url, external-featured-image, easy-image-gallery, updraftplus, materializer, disable-site, themeisle-companion
+0024.121 () Moving unpacked backup into place...
+0025.844 () Top-level entities being moved: easy-image-gallery, materializer, rps-image-gallery, facebook-conversion-pixel, updraftplus, hello.php, google-calendar-widget, simple-facebook-pixel, akismet, tablepress, index.php, smart-slideshow-widget, external-featured-image, customize-meta-widget, custom-facebook-feed, featured-image-via-url, disable-site
+0025.893 () Cleaning up rubbish...
+0025.897 () Entity: themes
+0025.897 () restore_backup(backup_file=backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-themes.zip, type=themes, info=a:2:{s:4:"path";s:59:"/nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0025.898 () Unpacking backup... (backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-themes.zip, 16.5 Mb)
+0038.001 () Moving old data: filesystem method / updraft_dir is potentially possible
+0038.006 () Moving old data: can potentially use wp_filesystem method / -old
+0038.006 () Moving old data out of the way...
+0041.756 () Top-level entities being moved: index.php, twentyeleven, twentyten, motion, esplanade, origin, pureline, twentytwelve, twentyfourteen, twentythirteen, twentyfifteen, hestia, materialize, polymer, stargazer, sydney
+0041.825 () Moving unpacked backup into place...
+0042.921 () Top-level entities being moved: polymer, twentyeleven, hestia, twentyfourteen, origin, pureline, index.php, twentythirteen, materialize, twentytwelve, motion, twentyfifteen, twentyten, stargazer, esplanade
+0042.969 () Cleaning up rubbish...
+0042.973 () Entity: uploads
+0042.973 () restore_backup(backup_file=backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:60:"/nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0042.974 () Unpacking backup... (backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-uploads.zip, 33.4 Mb)
+0046.853 () Moving old data: filesystem method / updraft_dir is potentially possible
+0046.858 () Moving old data: can potentially use wp_filesystem method / -old
+0046.858 () Moving old data out of the way...
+0048.096 () Moving unpacked backup into place...
+0048.428 () Cleaning up rubbish...
+0048.433 () Entity: others
+0048.433 () restore_backup(backup_file=backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-others.zip, type=others, info=a:2:{s:4:"path";s:52:"/nfs/bronfs/uwfs/dw00/d05/kkpsi/wordpress/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0048.434 () Unpacking backup... (backup_2017-07-24-1945_Kappa_Kappa_Psi_Gamma_2b9e0d8974ec-others.zip, 0 Mb)
+0048.551 () Cleaning up rubbish...
+0048.570 () Restore successful!
+0048.570 () Restore successful
