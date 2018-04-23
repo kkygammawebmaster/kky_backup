@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/icon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Image Gallery</title>
+
+    <link href="styles/style.css" rel="stylesheet" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!-- Bootstrap Material Design -->
+  	<!--<link rel="stylesheet" href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">-->
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/css/demo.css" rel="stylesheet" />
+</head>
+
+<body class="tutorial-page">
+
+	<nav class="navbar navbar-transparent navbar-absolute">
+		<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="">Kappa Kappa Psi - Gamma</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navigation-example">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">
+								Home
+							</a>
+						</li>
+
+						<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									About KKY
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="purposes.html">Purposes</a></li>
+									<li><a href="prominent.html">Prominent Members</a></li>
+									<li class="divider"></li>
+									<li><a href="boh.html">"Boh"</a></li>
+									<li><a href="fathers.html">Founding Fathers</a></li>
+									<li><a href="flag.html">Fraternity Flag</a></li>
+									<li><a href="music.html">Fraternity Music</a></li>
+									<li><a href="flower.html">Fraternity Flower</a></li>
+								</ul>
+						</li>
+
+						<!--<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								History
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">"Boh"</a></li>
+								<li><a href="#">Founding Fathers</a></li>
+								<li><a href="#">Fraternity Flag</a></li>
+								<li><a href="#">Fraternity Music</a></li>
+								<li><a href="#">Fraternity Flower</a></li>
+							</ul>
+						</li>-->
+
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Gamma
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="history.html">Chapter History</a></li>
+								<li><a href="officers.html">Chapter Officers</a></li>
+								<li><a href="actives.html">Active Brothers</a></li>
+								<li><a href="alumni.html">Gamma Alumni</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Publications
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="publications.html">Publications</a></li>
+								<li><a href="gossip/gossip3.html">Gamma Gossip</a></li>
+								<li><a href="news/news7.html">News</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="images.html">
+								Image Gallery
+							</a>
+						</li>
+
+						<li>
+							<a href="calendar.html">
+								Calendar
+							</a>
+						</li>
+
+						<li>
+							<a href="documents.html">
+								Documents
+							</a>
+						</li>
+						<li>
+							<a href="meritBadge.html">
+								Boyscouts
+							</a>
+						</li>
+
+						<!-- <li>
+							<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
+								<i class="material-icons">unarchive</i> Upgrade to PRO
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+								<i class="fa fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+<div class="wrapper">
+	<div class="header header-filter" style="background-image: url('assets/img/UW-Quad.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1 class="title text-center">Image Gallery</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main main-raised">
+		<div class="section">
+	        <div class="imageContainer">
+				<div class="row tim-row">
+	                <div class="col-md-8 col-md-offset-2">
+                        <div class="card card-img-top card-block" style="display: block; margin: 0 auto; height: 500px; ">
+	                       <iframe width="100%" height="500px" src="https://www.youtube.com/embed/95CNxi5xJeA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display: block; margin: 0 auto; margin-top: -200px; padding: 1%;"></iframe>
+                        </div>
+
+                        <h1>2017 - 2018</h1>
+                        <h2>Alpha Kappas!</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/lRC9hsew582Grdah1" target="_blank">
+                                <div class="card">
+                                  <img class="card-img-top execPic" src="https://goo.gl/n6owK4" alt="Card image cap">
+                                  <div class="card-block">
+                                    <p class="card-text">
+                                        <h3 class="center">Bid Night</h3>
+                                    </p>
+                                  </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/YD9lwv7r3eh7pOgU2" target="_blank">
+                                    <div class="card">
+                                  <img class="card-img-top execPic" src="https://goo.gl/wkcvjR" alt="Card image cap">
+                                  <div class="card-block">
+                                    <p class="card-text">
+                                        <h3 class="center">First Degree</h3>
+                                    </p>
+                                  </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/et5RhcBXjDtRsMGs1" target="_blank">
+                                <div class="card">
+                                  <img class="card-img-top execPic" src="https://goo.gl/KNJrBp" alt="Card image cap">
+                                  <div class="card-block">
+                                    <p class="card-text">
+                                        <h3 class="center">Second Degree</h3>
+                                    </p>
+                                  </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/Kxm7wHG2RowtLCBi2" target="_blank">
+                                <div class="card">
+                                  <img class="card-img-top execPic" src="https://goo.gl/ExK6Vd" alt="Card image cap">
+                                  <div class="card-block">
+                                    <p class="card-text">
+                                        <h3 class="center">Third Degree</h3>
+                                    </p>
+                                  </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <h2>Events!</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/VMyeg2sfbhK5VAKk2" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/ny6hBP" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">WAGON States Days</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/wmz0AuhpiRCwnjSA2" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/DYdFrE" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Merrill Gardens Nursing Home</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+
+                            <div class="col">
+                            </div>
+                        </div> <!-- Events -->
+
+                        <h1>2016 - 2017</h1>
+                        <h2>Alpha Iotas!</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/Aa2Cvpu9Fp2mx32k8" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/tlp9GU" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Third Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/9mxq48QTbYHunner9" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/c9faOe" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Second Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/PMo8CkryQTLW89Ek8" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/wWVQF3" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">First Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/gWQh26aGjEtGhPJX7" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/BM9OGq" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Bid Night</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> <!--Alpha Iotas-->
+
+                        <h2>Events!</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/b7cnDjoxJadxVXeg2" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/ad1zE6" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Boyscouts</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/S3LG7UJjptzFc8JC3">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/ARYAx5" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">HMB Pie</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://photos.app.goo.gl/AzVb0umoaNyrKl3S2" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/evXk56" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Alumni BBQ</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/t8Pah67FVsTJgVFm7" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/gJty3K" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Retreat</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/X3brfakoENqGkpA16" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/hKNhuC" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">WDC</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/ZXqV2psZnRMCPcDeA" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/HJNuF2" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Day Trip</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/NTSh7nnFmgXaBs7W6" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/luU80h" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">DLC</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/Wa9FeZrQDeS65kj28" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/o5Myqm" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Night Trip</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/UvHTmisnmX8f4X1o8" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/B10ubz" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Petting Zoo</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/PDxKQZFuG55zVJdW6" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/U7BO5B" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Brotherhood Books</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/WFXV7f7g3DzYDcGu7" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/AXBWo7" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Corn Maze</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                            </div>
+                        </div> <!-- Events -->
+
+                        <h2>Alpha Thetas!</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/5Kt4xZ" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/AJtXIs" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Third Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/LboVffcezpyxV3kF9" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/rGtAUA" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Second Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/X3zHuYzroKPp381aA" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/mWtGr4" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">First Degree</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/6FHa5bWJ4hrH7NUV8" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/EpSIfD" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Bid Night</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> <!--Alpha Thetas-->
+
+                        <h2>Fall Recruitment 2015</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/Twhd32oVnrNXizEa7" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/rJSksL" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Yeti Yogurt</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/kBAV8FXMfvK7aEE7A">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/V7vwL7" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Volleyball Match</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/aUnha13WxPjHApQr5" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/L8wwmc" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Candy Grams</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/GZxxJgTSVNPpvAVN9" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/sthPGE" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Pumpkin Carving</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> <!--Fall Recruitment 2015-->
+
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/y8CVjQzYTuBAfDbi7" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/8UQ8Qr" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Stanford Game</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+
+                            </div>
+
+                            <div class="col">
+
+                            </div>
+
+                            <div class="col">
+
+                            </div>
+                        </div> <!--Fall Recruitment 2015-->
+
+                        <h2>Events</h2>
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/Ft4BXKA6G12AEtDb9" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/2EW2kf" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Founder's Day</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/fqTrqsNAtmVRGEu4A" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/SvZeky" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Retreat 2016</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/mfZqyZCbRKyaYFSs9" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/KQRhUP" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Brotherhood Olympics</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/LvdYXfToXvcAzxBY6" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/dqSkMu" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Alumni BBQ</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> <!--Events 2015-->
+
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://goo.gl/photos/xPX5q5GAjvQD3KAv6" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/UWfjZr" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">WDC 2016</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/6z7zGRXrqb3rEKU46" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/qpz3n1" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">Wagon 2016</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="https://goo.gl/photos/PNeDkp4UWKrYn1838" target="_blank">
+                                    <div class="card">
+                                      <img class="card-img-top execPic" src="https://goo.gl/d38yL7" alt="Card image cap">
+                                      <div class="card-block">
+                                        <p class="card-text">
+                                            <h3 class="center">DLC 2016</h3>
+                                        </p>
+                                      </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+
+                            </div>
+                        </div> <!--Events 2015-->
+
+                        <h2>Photo Archives</h2>
+                        <h4>2017</h4>
+                        <p><a href="https://photos.app.goo.gl/FSvI5433jFtDQgos2" target="_blank">Leadership Retreat</a></p>
+
+                        <h4>2016</h4>
+                            <p><a href="https://goo.gl/photos/c47xqxfPeGfgLGDj9" target="_blank">Table Flipping 2016</a></p>
+                            <p><a href="https://goo.gl/photos/qU9B8K8vrk1JscUAA" target="_blank">Letter Making Parties 2016</a></p>
+                            <p><a href="https://goo.gl/photos/mtiJMDep831FcoXv6" target="_blank">Ice Skating 2016</a></p>
+                            <p><a href="https://goo.gl/photos/66efXLPsZWN4oAB76" target="_blank">Tree Talks 2016</a></p>
+
+                        <h4>2015</h4>
+                            <p><a href="https://goo.gl/photos/a7cngweMU1Fy9fUx6" target="_blank">Gamma Holiday Caroling</a> 2015</p>
+                            <p><a href="https://goo.gl/photos/RSGq6X1AYCkNeMVC6" target="_blank">Brotherhood Books 2015</a></p>
+                            <p><a href="https://goo.gl/photos/WMQUJQ6WK7XRfSiL6" target="_blank">Veggie Grill Profit Share 2015</a></p>
+                            <p><a href="https://goo.gl/photos/wdvB5DKtDQTX3Auy7" target="_blank">EQ Cleanup 2015</a></p>
+                            <p><a href="https://goo.gl/photos/WdjyjLVtCiVqiDRt8" target="_blank">The Accent Write-In 2015</a></p>
+                            <p><a href="https://goo.gl/photos/Grtce9YH3Bh3z95k7" target="_blank">WSU Visiting Band Snacks 2015</a></p>
+                            <p><a href="https://goo.gl/photos/zvMjAccghj9kzqhMA" target="_blank">DPME Lesson on Hazing 2015</a></p>
+                            <p><a href="https://goo.gl/photos/bVbBQDL3y9mFaaG58" target="_blank">Cal/Millennium Visiting Band Snacks 2015</a></p>
+                            <p><a href="https://goo.gl/photos/ym3hdkoon2utduRb9" target="_blank">HMB Auditions 2015</a></p>
+                            <p><a href="https://goo.gl/photos/5XGizBc6fM7vJGo86" target="_blank">Wagon 2015</a></p>
+
+
+                        <h4>2014</h4>
+                            <p><a href="https://goo.gl/photos/iwe8FTFwkFLjgvFu5" target="_blank">Headshots 2014</a></p>
+                            <p><a href="https://goo.gl/photos/TCazH49HzbYLeUJr8" target="_blank">Instrument Petting Zoo 2014</a></p>
+                            <p><a href="https://goo.gl/photos/XUYehQr2mDs58biu9" target="_blank">Alpha Zeta’s Second Degree 2014</a></p>
+                            <p><a href="https://goo.gl/photos/yDpE48fUpd2sB1AY7" target="_blank">Alpha Zeta’s Third Degree 2014</a></p>
+                            <p><a href="https://goo.gl/photos/9Au1JhiEZH7NhdHy9" target="_blank">Ice Skating 2014</a></p>
+                            <p><a href="https://goo.gl/photos/jJyjR3jktBMy9vA7A" target="_blank">Wagon 2014</a></p>
+                            <p><a href="https://goo.gl/photos/CT9t68NGrwDv3Bug7" target="_blank">DLC 2014</a></p>
+                            <p><a href="https://goo.gl/photos/DAvstfinGmmCHefZA" target="_blank">All Star Band 2014</a></p>
+                            <p><a href="https://goo.gl/photos/RLR4KKTgeQzUq2jy6" target="_blank">Solo & Ensemble Table 2014</a></p>
+
+                        <h4>2013</h4>
+                            <p><a href="https://goo.gl/photos/HW1PpaRDeH8U3hpK8" target="_blank">Visiting Band Treats 2013</a></p>
+                            <p><a href="https://goo.gl/photos/i9rYjQ7VYa1bofMR9" target="_blank">Alpha Zeta’s First Degree 2013</a></p>
+                            <p><a href="https://goo.gl/photos/kL1p3LZaTbzEmSfV9" target="_blank">Alpha Zeta’s Bid Night 2013</a></p>
+                            <p><a href="https://goo.gl/photos/ACCmXFPrCtQTesD79" target="_blank">Gingerbread at Chapter 2013</a></p>
+                            <p><a href="https://goo.gl/photos/sVfY9iyjRyQQy2zn8" target="_blank">Pumpkin Carving 2013</a></p>
+                            <p><a href="https://goo.gl/photos/fCZySitMUqvFq3JfA" target="_blank">Mongolian Grill 2013</a></p>
+                            <p><a href="https://goo.gl/photos/28naktjiy6PVyvJf8" target="_blank">Instrument Demonstrations 2013</a></p>
+                            <p><a href="https://goo.gl/photos/PEUa1oH37mGLatkP8" target="_blank">Washington Weekend 2013</a></p>
+                            <p><a href="https://goo.gl/photos/1e3syLZSQFsAkoec9" target="_blank">VA Game 2013</a></p>
+                            <p><a href="https://goo.gl/photos/hoEsZteq6rALPCfw5" target="_blank">Gamma Picnic 2013</a></p>
+                            <p><a href="https://goo.gl/photos/kWhoeVVDPryeMccW8" target="_blank">SD4 2013</a></p>
+                            <p><a href="https://goo.gl/photos/DJgKUBdw6pBf6e8W9" target="_blank">Boy Scout Music Merit Badge 2013</a></p>
+                            <p><a href="https://goo.gl/photos/YtgRQEr8HZj8jKsn6" target="_blank">EWB Fundraising 2013</a></p>
+                            <p><a href="https://goo.gl/photos/CVZhzuxzoKhakei77" target="_blank">Retreat 2013</a></p>
+                            <p><a href="https://goo.gl/photos/fg14yRbMhwAR1MmV6" target="_blank">Honorary Degree 2013</a></p>
+                            <p><a href="https://goo.gl/photos/E9VLzNct1p2YuozA9" target="_blank">Headshots 2013</a></p>
+                            <p><a href="https://goo.gl/photos/re9zH2PKtiatTHbh6" target="_blank">Alpha Epsilon’s Third Degree 2013</a></p>
+                            <p><a href="https://goo.gl/photos/HFbK7VmXxNzDAFzw6" target="_blank">Bros at the Zoo 2013</a></p>
+                            <p><a href="https://goo.gl/photos/uDAXu6iJYf5NH4GD7" target="_blank">Wagon Adventure Weekend 2013</a></p>
+                            <p><a href="https://goo.gl/photos/XmoYrjztYejYyXL56" target="_blank">PM Fundraising Music Bingo Night 2013</a></p>
+                            <p><a href="https://goo.gl/photos/fgpG1kSPkuziocsD9" target="_blank">WDC 2013</a></p>
+                            <p><a href="https://goo.gl/photos/pCK1Pnh9uX2BhEgj6" target="_blank">PM Music Project 2013</a></p>
+                            <p><a href="https://goo.gl/photos/KmVVtd8SaFxZvyPz6" target="_blank">Connecting Through Music 2013</a></p>
+                            <p><a href="https://goo.gl/photos/zn9rzg1CUvPiNG3k9" target="_blank">Utaho 2013</a></p>
+                            <p><a href="https://goo.gl/photos/CkxKHPKXFJLeFqrq5" target="_blank">Ice Skating Winter 2013</a></p>
+                            <p><a href="https://goo.gl/photos/rywkVwQxn9cswhef8" target="_blank">Alpha Epsilon at Molly Moon’s 2013</a></p>
+                            <p><a href="https://goo.gl/photos/Shwiie19N8apkWy89" target="_blank">DLC 2013</a></p>
+                            <p><a href="https://goo.gl/photos/L4tehNJGNVuNMN11A" target="_blank">Wagon 2013</a></p>
+                            <p><a href="https://goo.gl/photos/djkkPNqbR23a6AS39" target="_blank">Alpha Epsilon’s Rotato and Second Degree 2013</a></p>
+                            <p><a href="https://goo.gl/photos/s9VNGqiziuDVDPA49" target="_blank">Gamma Hikes Little Si 2013</a></p>
+                            <p><a href="https://goo.gl/photos/XgB9C1UCHtrTp7GWA" target="_blank">Gamma’s Valentine Making 2013</a></p>
+                            <p><a href="https://goo.gl/photos/qKXRp2aXuoNVSLw68" target="_blank">Gameworks Winter 2013</a></p>
+
+                        <h4>2012</h4>
+                            <p><a href="https://goo.gl/photos/tR8o4qdGwZDfjyRc6" target="_blank">Stands Project 2012</a></p>
+                            <p><a href="https://goo.gl/photos/fiSZiGDj3BBCBoJ16" target="_blank">Colorado Trip 2012</a></p>
+                            <p><a href="https://goo.gl/photos/YXGzDMpnUXtA9Hm7A" target="_blank">Organizing Music Library 2012</a></p>
+                            <p><a href="https://goo.gl/photos/YeyS5c9C5sMLev467" target="_blank">Storage Room Project 2012</a></p>
+                            <p><a href="https://goo.gl/photos/w5beBVUTBfaWnVRd8" target="_blank">Alpha Epsilon’s First Degree 2012</a></p>
+                            <p><a href="https://goo.gl/photos/ypTMADEk7N62fNVy8" target="_blank">Alpha Epsilon’s Bid Night 2012</a></p>
+                            <p><a href="https://goo.gl/photos/asnx1sPZDVmPiMjWA" target="_blank">Miscellaneous 2012</a></p>
+                            <p><a href="https://goo.gl/photos/j6ZLFhQrgbiiv2Gy6" target="_blank">Pumpkin Carving 2012</a></p>
+                            <p><a href="https://goo.gl/photos/u59vp5KsgdgXBRPB7" target="_blank">Rookie Auditions 2012</a></p>
+                            <p><a href="https://goo.gl/photos/xhgB8U2obdf3u5na8" target="_blank">School of Music Board 2012</a></p>
+                            <p><a href="https://goo.gl/photos/jDPtxccedXdjb2U5A" target="_blank">Washington Weekend 2012</a></p>
+                            <p><a href="https://goo.gl/photos/aSUE5BEqqu81GD6y7" target="_blank">Gamma Goes to the Circus Summer 2012</a></p>
+                            <p><a href="https://goo.gl/photos/ggnG6TVV11g4GrQLA" target="_blank">Summer Concert Band 2012</a></p>
+                            <p><a href="https://goo.gl/photos/henNumQ3yBPhUiGr5" target="_blank">Brothers at the Zoo 2012</a></p>
+                            <p><a href="https://goo.gl/photos/Y6qcv3BhtSH2cDQe9" target="_blank">Boy Scout Music Merit Badge 2012</a></p>
+                            <p><a href="https://goo.gl/photos/4aHj1cEgu6jNiBos5" target="_blank">HMB Shanghai Trip 2012</a></p>
+                            <p><a href="https://goo.gl/photos/pEb2waL5WaQEzW6G7" target="_blank">Alpha Alpha</a></p>
+                            <p><a href="https://goo.gl/photos/B7NM4BHMSwdEHanA9" target="_blank">WDC 2012</a></p>
+                            <p><a href="https://goo.gl/photos/tT6EPBGGSiyxJhSb7" target="_blank">Alamo Bowl 2012</a></p>
+                            <p><a href="https://goo.gl/photos/ezChonU4EPsXVZbP6" target="_blank">Retreat 2012</a></p>
+                            <p><a href="https://goo.gl/photos/TKanMvN1VQ4gKFWB6" target="_blank">Honorary Degree 2012</a></p>
+                            <p><a href="https://goo.gl/photos/4Z5L7oiRtW5eMKbt8" target="_blank">Headshots 2012</a></p>
+                            <p><a href="https://goo.gl/photos/JjtUHctZ22e4XmLx7" target="_blank">Alpha Delta’s Third Degree 2012</a></p>
+                            <p><a href="https://goo.gl/photos/yxTFuczPqiNwe5yv8" target="_blank">Alpha Delta’s Rotato and Second Degree 2012</a></p>
+
+                        <h4>2011</h4>
+                            <p><a href="https://goo.gl/photos/sSstCKKyZox87qnX6" target="_blank">National Convention 2011</a></p>
+                            <p><a href="https://goo.gl/photos/nfHy31fNWZ98iFfq7" target="_blank">Alpha Gamma’s Third Degree 2011</a></p>
+                            <p><a href="https://goo.gl/photos/pg1GH1YtMACeQRhi6" target="_blank">Headshots 2011</a></p>
+                            <p><a href="https://goo.gl/photos/NPoErgKSHfACCx919" target="_blank">Organizing Music Library 2011</a></p>
+                            <p><a href="https://goo.gl/photos/hB9Fu1qE6zpYnjer5" target="_blank">WDC 2011</a></p>
+                            <p><a href="https://goo.gl/photos/jhD1NrmbMrBP9JpD7" target="_blank">Euro Trip 2011</a></p>
+                            <p><a href="https://goo.gl/photos/gGyXNaiAfAYj9jyNA" target="_blank">Mirror Lake 2011/a></p>
+                            <p><a href="https://goo.gl/photos/j1V4qWBFxzSoGEfaA" target="_blank">Junior/Senior Day 2011</a></p>
+                            <p><a href="https://goo.gl/photos/VPNdkgfDDwNMW3nPA" target="_blank">Denny’s Dinner 2011</a></p>
+
+                        <h4>Misc.</h4>
+                            <p><a href="https://goo.gl/photos/HmRsBR3fnXrdwBxcA" target="_blank">Alpha Delta</a></p>
+                            <p><a href="https://goo.gl/photos/GaDAftqTmvha8FVYA" target="_blank">Alpha Gamma</a></p>
+                            <p><a href="https://goo.gl/photos/oDK4YH1RV77QZJYz6" target="_blank">Alpha Beta</a></p>
+                            <p><a href="https://goo.gl/photos/3xMeJeQ8FLumPDMo8" target="_blank">Omega</a></p>
+
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+<footer class="footer footer-transparent">
+    <div class="container">
+        <nav class="pull-left">
+          <ul>
+						<li>
+							<a href="http://students.washington.edu/kkpsi/officers.html">
+								Contact the Officers
+							</a>
+						</li>
+						<!--<li>
+							<a href="http://students.washington.edu/austinqq/portfolio/">
+							   About Me
+							</a>
+						</li>-->
+          </ul>
+        </nav>
+        <div class="social-area pull-right">
+            <a class="btn btn-social btn-twitter btn-just-icon" href="https://twitter.com/kkpsigamma">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="btn btn-social btn-facebook btn-just-icon" href="https://www.facebook.com/kkpsigamma">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            &copy; 2018 Austin Quach
+        </div>
+    </div>
+</footer>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+	<script>
+
+		$().ready(function(){
+
+			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+
+		});
+
+</script>
+</html>

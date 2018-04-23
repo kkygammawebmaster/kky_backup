@@ -1,0 +1,52 @@
+button.btn.btn-primary.clear-btn {
+    background-color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.noSpace {
+    line-height: .7;
+}
+
+.pull-left-fathers {
+    float: left;
+    padding: 5%;
+    height: 330px;
+}
+
+.fitHeight {
+    height: 330px;
+    width: 220px;
+}
+
+.black {
+    color: black;
+}
+
+img.fitWidth {
+    width: 100%;
+}
+
+.execPic {
+    height: 300px;
+}
+
+.imageContainer {
+        padding-left: 10%;
+    }
+
+@media (max-width: 995px) {
+    .imageContainer {
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 550px) {
+    
+}
